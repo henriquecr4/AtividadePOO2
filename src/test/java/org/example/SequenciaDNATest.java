@@ -38,7 +38,7 @@ public class SequenciaDNATest {
     }
 
     @Test
-    @DisplayName("Verifica se o valor retornado está certo para uma sequência válida")
+    @DisplayName("Avalia se o valor apresentado corresponde a uma sequência válida.")
     public void calculaNucleotideosTeste01() throws IOException {
         int[] resultado = SequenciaDNA.calculaNucleotideos(pathFile1);
         assertArrayEquals(new int[] {4, 2, 2, 2, 0}, resultado);
