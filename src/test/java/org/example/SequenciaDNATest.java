@@ -59,7 +59,7 @@ public class SequenciaDNATest {
     }
 
     @Test
-    @DisplayName("Verifica se lança exceção do tipo IOException")
+    @DisplayName("Verifique se ocorre uma exceção do tipo IOException ao ser lançada.")
     public void calculaNucleotideosTeste04() {
         assertThrows(IOException.class, () -> SequenciaDNA.calculaNucleotideos(pathFile4)); // ou assertThrowsExactly(NoSuchFileException)
     }
