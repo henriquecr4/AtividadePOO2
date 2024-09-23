@@ -52,7 +52,7 @@ public class SequenciaDNATest {
     }
 
     @Test
-    @DisplayName("Verifica se o valor retornado é null quando o número de caracteres inválidos for superior a 10% do tamanho da sequência")
+    @DisplayName("Confirma se o valor retornado é null se a quantidade de caracteres inválidos exceder 10% do tamanho da sequência.")
     public void calculaNucleotideosTeste03() throws IOException {
         int[] resultado = SequenciaDNA.calculaNucleotideos(pathFile3);
         assertNull(resultado);
