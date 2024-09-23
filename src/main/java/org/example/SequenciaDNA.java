@@ -1,6 +1,6 @@
 /**
  * @author: Jhonatan Rotta Santana, Henrique Cavalcante Rodrigues
- * Describe:
+ * Describe: Calcular nucleotídeos de uma sequência de DNA a partir de um arquivo texto, considerando erros e validade.
  **/
 
 package org.example;
